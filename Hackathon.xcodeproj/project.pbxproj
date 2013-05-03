@@ -50,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E52C41DE1733F25700A581B7 /* QuartzCore.framework in Frameworks */,
 				E52FBB241731615100812A05 /* UIKit.framework in Frameworks */,
 				E52FBB261731615100812A05 /* Foundation.framework in Frameworks */,
 				E52FBB281731615100812A05 /* CoreGraphics.framework in Frameworks */,
@@ -90,6 +91,7 @@
 		E52FBB221731615100812A05 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E52C41DD1733F25700A581B7 /* QuartzCore.framework */,
 				E52FBB231731615100812A05 /* UIKit.framework */,
 				E52FBB251731615100812A05 /* Foundation.framework */,
 				E52FBB271731615100812A05 /* CoreGraphics.framework */,
