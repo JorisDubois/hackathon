@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		90CE6C761733F2BA00C9797F /* GentEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CE6C751733F2BA00C9797F /* GentEvent.m */; };
-		90CE6C791733F44900C9797F /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CE6C781733F44900C9797F /* Contact.m */; };
 		E52FBB241731615100812A05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52FBB231731615100812A05 /* UIKit.framework */; };
 		E52FBB261731615100812A05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52FBB251731615100812A05 /* Foundation.framework */; };
 		E52FBB281731615100812A05 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52FBB271731615100812A05 /* CoreGraphics.framework */; };
@@ -23,10 +21,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		90CE6C741733F2BA00C9797F /* GentEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GentEvent.h; sourceTree = "<group>"; };
-		90CE6C751733F2BA00C9797F /* GentEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GentEvent.m; sourceTree = "<group>"; };
-		90CE6C771733F44900C9797F /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
-		90CE6C781733F44900C9797F /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
 		E52FBB201731615100812A05 /* Hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E52FBB231731615100812A05 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E52FBB251731615100812A05 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,7 +44,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E52C41DE1733F25700A581B7 /* QuartzCore.framework in Frameworks */,
 				E52FBB241731615100812A05 /* UIKit.framework in Frameworks */,
 				E52FBB261731615100812A05 /* Foundation.framework in Frameworks */,
 				E52FBB281731615100812A05 /* CoreGraphics.framework in Frameworks */,
@@ -60,28 +53,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		90CE6C731733F1EF00C9797F /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				90CE6C741733F2BA00C9797F /* GentEvent.h */,
-				90CE6C751733F2BA00C9797F /* GentEvent.m */,
-				90CE6C771733F44900C9797F /* Contact.h */,
-				90CE6C781733F44900C9797F /* Contact.m */,
-			);
-			name = Models;
-			sourceTree = "<group>";
-		};
-		E52C41E01733F2A800A581B7 /* JASidePanels */ = {
-			isa = PBXGroup;
-			children = (
-				E52C41E11733F2C400A581B7 /* JASidePanelController.h */,
-				E52C41E21733F2C400A581B7 /* JASidePanelController.m */,
-				E52C41E41733F33F00A581B7 /* UIViewController+JASidePanel.h */,
-				E52C41E51733F33F00A581B7 /* UIViewController+JASidePanel.m */,
-			);
-			name = JASidePanels;
-			sourceTree = "<group>";
-		};
 		E52FBB171731615100812A05 = {
 			isa = PBXGroup;
 			children = (
@@ -102,7 +73,6 @@
 		E52FBB221731615100812A05 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E52C41DD1733F25700A581B7 /* QuartzCore.framework */,
 				E52FBB231731615100812A05 /* UIKit.framework */,
 				E52FBB251731615100812A05 /* Foundation.framework */,
 				E52FBB271731615100812A05 /* CoreGraphics.framework */,
@@ -113,7 +83,6 @@
 		E52FBB291731615100812A05 /* Hackathon */ = {
 			isa = PBXGroup;
 			children = (
-				90CE6C731733F1EF00C9797F /* Models */,
 				E52FBB321731615100812A05 /* AppDelegate.h */,
 				E52FBB331731615100812A05 /* AppDelegate.m */,
 				E52FBB3B1731615100812A05 /* MainStoryboard.storyboard */,
@@ -207,8 +176,6 @@
 				E52FBB301731615100812A05 /* main.m in Sources */,
 				E52FBB341731615100812A05 /* AppDelegate.m in Sources */,
 				E52FBB401731615100812A05 /* ViewController.m in Sources */,
-				90CE6C761733F2BA00C9797F /* GentEvent.m in Sources */,
-				90CE6C791733F44900C9797F /* Contact.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
